@@ -64,6 +64,11 @@ button
     padding-top: 15px;
     padding-right: 60px;
 } */
+.box1{
+    position: absolute;
+    top: 0px;
+    width: 100%;
+}
 .nav
 {
     display: flex;
@@ -74,9 +79,6 @@ button
     padding: 30px 40px;
     word-spacing: 20px;
     margin: 0px;
-    position: absolute;
-    top: 0px;
-    width:1439px;
     font-family: calibri;
 }
 .nav-list
@@ -91,6 +93,10 @@ button
     left: 100px;
     height: 80px;
 }
+#head
+{
+  width: 100%;
+}
 .box-img-1  
 {
     height: 889px;
@@ -99,12 +105,12 @@ button
 }
 .box3
 {
-    height: 77px;
     background-color: lightgray;
     width: 100%;
     opacity: 0.7;
     position: absolute;
-    top: 812px;
+    top: 807px;
+    padding: 10px;
 }
 .txt2
 {
@@ -202,9 +208,8 @@ p
 }
 .box6
 {
-    height: 77px;
     background-color: #F8F8FF;
-    width: 1520px; 
+    width: 100%; 
     position: absolute;
     top: 2277px; 
 }
@@ -220,22 +225,19 @@ p
 }
 .box7
 {
-    height: 55px;
     background-color:#454545;
     width: 900px;
     margin-left: 302px;
-    padding-top: 30px;
     position: absolute;
-    top: 2355px;
+    top: 2343px;
 }
 .box7-txt
 {
   color: white;
   font-family: calibri;
   font-size: 20px;
-  position: absolute;
-  top: 0px;
-  left: 30px; 
+  padding-top: 10px;
+  padding-left: 30px;
 }
 .button-1
 {
@@ -244,6 +246,8 @@ p
     color: white;
     border: none;
     padding: 10px 20px 10px 30px;
+    position: absolute;
+    top: 20px;
     margin-left: 630px;
     background-color: #00CED1;
 }
@@ -280,11 +284,153 @@ p
     position: absolute;
     top: 2780px;
     left: 650px;
-    bottom: 20px;
     color: white;
     font-size: 15px;
     font-family: calibri;
 }
+@media only screen and (max-width:768px)
+{
+  .nav
+  {
+    padding: 15px;
+  }
+  .box1ark-logo
+  {
+    height: 40px;
+    top: 5px;
+    left:15px;
+  }
+  .nav-list
+  {
+    padding-right: 10px;
+    font-size: 13px;
+  }
+  .box-img-1  
+  {
+      height: auto;
+      width: 100%;
+  }
+  .box3
+{
+    position: absolute;
+    top: 220px;
+    padding: 5px;
+    width: 100%;
+}
+.txt2
+{
+    font-size: 8px;
+    padding-top: 5px;
+    padding-left: 10px;
+    font-family: calibri; 
+}
+.button
+{
+    padding: 5px 5px;
+    font-size: 8px;
+    position: absolute;
+    left: 250px;
+    top: 10px; 
+}
+.box4-section
+{
+   height: 750px;
+   text-align: left;
+   padding-top: 60px;
+   width: 100%;
+   margin-left: 0px;
+}
+.box4
+{
+    display: grid;
+    grid-template-columns: auto;
+}
+h1
+{
+  font-size: 15px;
+text-align: center;}
+.seprator-img
+{
+    padding-left: 55px;
+    width: 200px;   
+}
+.all-images
+{
+    display: grid;
+    grid-template-columns: auto ;
+    width: 100%;
+}
+.all-pics
+{
+    width: 400px;
+    height: 600px;
+    margin: 0px;
+    padding: 0px;
+} 
+.change-colo
+{
+    text-align: center;
+}
+.box6
+{
+    width: 100%; 
+    position: absolute;
+    top: 4880px; 
+}
+.box-6images
+{
+  padding-top: 10px;
+  padding-left: 0px; 
+  width: 50px;
+}
+.center-img
+{
+    width: 100%;
+    margin-left: 30px;
+}
+.box7
+{
+    width: 100%;
+    position: absolute;
+    top: 4914px;
+    margin-left: 0px;
+}
+.box7-txt
+{
+  font-size: 10px;
+  padding-top: 5px;
+  padding-left: 10px;
+}
+.button-1
+{
+    font-size: 10px;
+    padding: 5px 5px 5px 5px;
+    position: absolute;
+    top: 6px;
+    margin-left: 280px;
+}
+.box8
+{
+    display: grid;
+    grid-template-columns: auto;
+    height: 1300px;
+    padding-top: 70px;
+}
+.box8-head
+{
+   margin-left: 20px;
+}
+.box8-para
+{
+   padding: 0px 70px ;
+}
+.ending p
+{
+    position: absolute;
+    top: 6170px;
+    left: 80px;
+    bottom: 40px;
+}
+}
 
-
-
+    
